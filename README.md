@@ -15,24 +15,24 @@ This project requires Node.js for managing dependencies and running scripts. Fol
 2. **Install Node.js dependencies**:
     - Open your terminal in the project directory.
     - Run the following command to initialize a `package.json` file:
-
+      ```bash
       npm init -y
-
+      ```
     - This will create a `package.json` file with default values, which is necessary for managing your project's dependencies.
 
 3. **Install Required Packages** (if any):
     - After running `npm init -y`, you can Install Express (for handling web requests) and multer (for handling file uploads):
-
+      ```bash
       npm install express multer
-
+      ```
 
 ## Running the Project
 
 1. **Start the Server**:
     - In your terminal, run the server:
-
+      ```bash
       node server.js
-
+      ```
     - The server will start running at http://localhost:3000.
 
 2. **Test the file upload**:
