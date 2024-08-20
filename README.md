@@ -46,12 +46,15 @@ This project requires Node.js for managing dependencies and running scripts. Fol
 
 - If you encounter any issues during installation or while running the project, make sure that Node.js is correctly installed and that you are in the correct directory.
 
+## License 
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 ---
 
 Happy coding!
 
 ---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
