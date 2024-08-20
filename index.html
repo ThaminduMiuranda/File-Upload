@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload</title>
+  </head>
+  <body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="subject">Select Subject:</label>
+      <select name="subject" id="subject">
+        <option value="math">Math</option>
+        <option value="science">Science</option>
+        <!-- Add more subjects -->
+      </select>
+
+      <label for="lesson">Select Lesson:</label>
+      <select name="lesson" id="lesson">
+        <option value="lesson1">Lesson 1</option>
+        <option value="lesson2">Lesson 2</option>
+        <!-- Add more lessons -->
+      </select>
+
+      <input type="file" name="file" accept=".pdf,.png,.jpg" />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
