@@ -49,3 +49,9 @@ This project requires Node.js for managing dependencies and running scripts. Fol
 ---
 
 Happy coding!
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
